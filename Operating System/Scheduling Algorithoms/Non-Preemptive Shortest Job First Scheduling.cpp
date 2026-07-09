@@ -1,5 +1,3 @@
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -45,7 +43,7 @@ int main() {
     cout << "P\tAT\tBT\tCT\tTAT\tWT\n";
     for(int i=0;i<n;i++) {
         cout << "P" << p[i] << "\t" << at[i] << "\t" << bt[i] << "\t"
-             << ct[i] << "\t" << tat[i] << "\t" << wt[i] << endl;
+             << ct[i] << "\t" << tat[i] << "\t" << wt[i] << endl; 
     }
 
     return 0;
