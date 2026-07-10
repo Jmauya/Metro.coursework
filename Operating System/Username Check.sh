@@ -1,5 +1,4 @@
 #!/bin/bash
-
 read -p "Enter your username: " user
 if [ "$user" = "admin" ]
 then
