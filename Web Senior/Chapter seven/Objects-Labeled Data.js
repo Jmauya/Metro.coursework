@@ -3,6 +3,7 @@ const student = {
  id: "CSE-2101",
  cgpa: 3.6,
  isRegular: true,
+ 
 };
 
 console.log(student.name);     // dot notation: Tanvir
