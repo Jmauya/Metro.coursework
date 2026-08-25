@@ -12,3 +12,9 @@ const account = {
  this.balance += amount;
  return this.balance;
  },
+summary() {
+ return `${this.owner}: ${this.balance} BDT`;
+ },
+};
+account.deposit(1500);
+console.log(account.summary()); // Sadia: 6500 BDT
