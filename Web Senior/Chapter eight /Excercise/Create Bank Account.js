@@ -10,7 +10,7 @@ function createBankAccount(initial = 0) {
       }
       return balance;
     },
-    getBalance() {
+    getBalance() {  
       return balance;
     }
   };
