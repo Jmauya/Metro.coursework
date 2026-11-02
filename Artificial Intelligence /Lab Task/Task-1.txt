@@ -1,0 +1,72 @@
+Part 1: Recall the Workflow (Suggested time: 10 minutes)
+Without looking at your notes or the internet, write down from memory the steps involved in a basic machine learning workflow. For each step, give:
+a very brief description (one or two lines)
+a small example, if it helps
+Hint: Think about what comes first. Every project starts with loading a dataset with Pandas.
+
+Part 2: Loading the Dataset (Suggested time: 10 minutes)
+Question 1. Every project starts with a dataset. Datasets are basically tables with rows and columns, usually stored as Excel or CSV files.
+Bonus: What is the full form of CSV?
+Suppose you are given a CSV file and want to start working with the data. How would you load it?
+Hint: Look up the pandas DataFrame.
+Question 2. Download the student performance data as a CSV file from the Google Sheet. Then:
+Load it as a pandas DataFrame (a DataFrame is what pandas calls a table).
+Display the first 10 rows.
+
+Part 3: Know your Data
+Suggested time: 10 minutes
+Before drawing conclusions, investigate the dataset.
+Find out:
+How many rows and columns does it contain?
+What are the column names?
+Which columns contain numerical data, and which contain categorical data?
+Are there any missing values?
+What are the average, minimum, and maximum values of selected numerical columns?
+You may use Pandas documentation, your previous learning materials, or other resources to figure out the necessary commands.
+
+Part 4: Ask Your Own Questions
+Suggested time: 10 minutes
+Now comes the fun part!
+Your team must formulate at least three questions that can be investigated using the dataset.
+You may investigate study habits, attendance, academic performance, departments, participation, or any other variables that interest you.
+For example:
+Do students who study more tend to score higher?
+Does average performance differ across departments?
+Is attendance associated with examination scores?
+Do students with different previous academic results perform differently?
+Does class participation appear to be related to total scores?
+These are only starting points. Try to choose questions that make your group's investigation distinctive.
+
+Part 5: Data Exploration and Visualization (Suggested time: 30 minutes)
+Question 3. Discuss as a group and write down your answers.
+Why do we need to explore data before doing any machine learning task?
+Why, and how, do we look for patterns in a dataset?
+Does visualization (plotting the data) help? If so, how?
+Possible charts include:
+Bar chart: Compare average scores across departments.
+Histogram: Investigate the distribution of examination marks.
+Scatter plot: Explore the relationship between study hours and total score.
+Box plot: Compare score distributions across participation levels.
+Line plot: Explore scores across students or another meaningful ordered variable.
+Heatmap: Explore correlations between numerical variables.
+
+Question 4. Using the student performance dataset, create at least 3 basic plots (for example a histogram, bar chart, scatter plot, or box plot). For each plot, write:
+
+Which columns you used
+What type of plot you chose, and why
+What pattern or insight you found
+Make your exploration unique! Other groups will use the same dataset, so try to ask questions they might not. Your plots and findings should not match another group’s.
+
+Submission / Wrap-up
+Share your notebook or a screenshot of your plots.
+Be ready to present one interesting finding to the class (1 minute).
+
+
+Which columns you used
+What type of plot you chose, and why
+What pattern or insight you found
+Make your exploration unique! Other groups will use the same dataset, so try to ask questions they might not. Your plots and findings should not match another group’s.
+
+Submission / Wrap-up
+Share your notebook or a screenshot of your plots.
+Be ready to present one interesting finding to the class (1 minute).
